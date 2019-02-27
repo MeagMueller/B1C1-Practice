@@ -1,11 +1,11 @@
-// const articleHeader= document.querySelector(".article__header");
+const articleHeaderChange= document.querySelector(".article__header");
 
-// articleHeader.textContent="Welcome to the Meag Blog!";
+articleHeaderChange.textContent="Welcome to the Meag Blog!";
 
-const articleHeader = document.querySelectorAll(".article__header");
+const articleHeaderClass = document.querySelectorAll(".article__header");
 
-for (let i=0; i<articleHeader.length; i++){
-    articleHeader[i].classList.add("important");
+for (let i=0; i<articleHeaderClass.length; i++){
+    articleHeaderClass[i].classList.add("important");
 }
 
-console.log(articleHeader); 
+console.log(articleHeaderClass, articleHeaderChange); 
